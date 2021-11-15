@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  height: 10vh;
+  padding: 40px;
+  background: #23C92C;
+  color: white;
+  display: flex;
+  position: sticky;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+
+.header .fas.fa-home {
+  transform: scale(3);
+  vertical-align: middle;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.fas.fa-home:hover {
+  transform: scale(5);
+  transition: 3s;
+}
